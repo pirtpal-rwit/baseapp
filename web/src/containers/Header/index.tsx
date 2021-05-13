@@ -75,7 +75,7 @@ class Head extends React.Component<Props> {
                         <span className="pg-sidebar__toggler-item" />
                         <span className="pg-sidebar__toggler-item" />
                     </div>
-                    <div onClick={(e) => this.redirectToLanding()} className="pg-header__logo">
+                    <div onClick={(e) => this.redirectToLanding()} className="pg-header__logo class-test">
                         <Logo />
                     </div>
                     {this.renderMarketToggler()}
