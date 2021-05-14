@@ -27,6 +27,7 @@ export const Logo: FC = (): ReactElement => {
 
     return (
         <div className="pg-logo">
+            <h1>BaseAppLogo</h1>
             {image?.url ? (
                 <img
                     src={image.url}
